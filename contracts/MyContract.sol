@@ -7,7 +7,7 @@ contract MyContract {
         string email;
         bool signedUp;
     }
-
+    
     mapping(address => User) public users;
 
     event UserSignedUp(address indexed userAddress, string username, string email);

@@ -1,3 +1,4 @@
+//script to deploy on Polygon PoS
 async function main() {
     const MyContract = await ethers.getContractFactory("MyContract");
     const myContract = await MyContract.deploy();
